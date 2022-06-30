@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url(../images/Cake/cakePageHeader.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    max-width: 100%;
+    position: relative;
+}
+
+#kabirCakesLogo img{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 80px;
+}
+
+.navbar ul{
+    display: flex;
+    margin-right:40px ;
+}
+
+.navbar ul li{
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+.navbar ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 3px 20px;
+    border-radius: 20px;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+.headerContents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 185, 47);
+    width: 40%;
+    position: absolute;
+    left: 6%;
+    top: 40%;
+}
+
+.headerContents h2{
+    margin-top: 8px;
+} 
+
+.searchBox {
+    display: flex;
+    height: 35px;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+}
+
+.searchBox img{
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    top: 6px;
+    left: 150px;
+}
+
+.searchBox input[type = text]{
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.mainContents{
+    background-color: rgb(19, 29, 37);
+    width: 100%;
+    min-height: 2250px;
+    position: relative;
+}
+
+.cakecard{
+    height: 280px;
+    width: 47%;
+    background-color: rgb(223, 213, 221);
+    position: absolute;
+    display: flex;
+}
+
+.cakecard img{
+    width: 50%;
+    height: 100%;
+}
+
+.cakecard hr{
+    width: 80px;
+    color: black;
+    background-color: black;
+    height: 1px;
+}
+
+.cakecard p{
+    width: 30%;
+    height: 50%;
+}
+
+.cakecard button{
+    padding: 8px;
+    width: 18%;
+    color: #fff;
+    background-color: rgb(248, 199, 103, 1);
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.cakecard button:hover {background-color: #3e8e41}
+
+.cakecard button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.cakecard h3{
+    background-color: rgb(248, 199, 103, 1);
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    width: 2.4em;
+    height: 2.1em;
+    padding: 1em;
+    padding-top: 25px;
+}
+
+.cakecard h2{
+    position: absolute;   
+    right: 5em;
+    top: 0.4em;
+}
+
+.cakecard hr{
+    position: absolute;
+    right: 9em;
+    top: 2.3em;
+}
+
+.cakecard p{
+    position: absolute;   
+    top: 4em;
+    right: 3em;
+} 
+
+.cakecard button{
+    position: absolute;
+    top: 15em;
+    right: 2em;
+}
+
+.priceTag1{
+    position: absolute;
+    left: -2em;
+    top: -2em;
+}
+
+#cake1{
+    position: relative;
+    top: 80px; 
+    left: 10%; 
+}
+
+#cake2{
+    position: relative;
+    top: 160px; 
+    left: 40%; 
+}
+
+#cake3{
+    position: relative;
+    top: 240px; 
+    left: 10%; 
+}
+
+#cake4{
+    position: relative;
+    top: 320px; 
+    left: 40%; 
+}
+#cake5{
+    position: relative;
+    top: 400px; 
+    left: 10%; 
+}
+#cake6{
+    position: relative;
+    top: 480px; 
+    left: 40%; 
+}
+
+#offerCircle{
+    color: bisque;
+    background-color: rgb(154, 154, 154,10%);
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 900px;
+}
+#offerCircle h2{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+
+#secondCircle{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: rgb(248, 248, 248,10%);
+    position: absolute;
+    left: 200px;
+}
+
+#thirdCircle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(248, 248, 248,10%);
+    position: absolute;
+    top: 62em;
+    left: 52em;
+}
+
+#fourthCircle{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: rgb(248, 248, 248,10%);
+    position: absolute;
+    top: 80em;
+    left: 9em;
+}
+
+#fifthCircle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(248, 248, 248,10%);
+    position: absolute;
+    top: 110em;
+    left: 60em;
+}
+
+#sixthCircle{
+    color: bisque;
+    background-color: rgb(154, 154, 154,10%);
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 118em;
+    left: 8em;
+}
+
+#sixthCircle h2{
+    position: relative;
+    top: 60px;
+}
+
+
+.cakeFooter{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.cakeFooter img{
+    width: 100%;
+    height: 100%;
+}
+
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5em;
+    right: 4em;
+    color: #fff;
+}
+.footerContent button{
+    padding: 8px;
+    width: 150px;
+    color: #fff;
+    background-color: rgb(248, 199, 103, 1);
+    position: absolute;
+    top: 13em;
+    right: 2em;
+}
+
+.footerContent button:hover {background-color: #3e8e41}
+
+.footerContent button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar ul{
+        flex-direction: column;
+    }
+    .headerContents{
+      width: 90%;
+      font-size:13px;
+      top: 18em;
+    }
+
+    .mainContents{
+        height: 4800px;
+    }
+
+    .cakecard{
+        height: 700px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cakecard img{
+        width: 100%;
+        height: 50%;
+    }
+
+    .cakecard h2{
+        width: 90%;
+        font-size: 40px;
+        left: 1em;
+    } 
+
+    .cakecard hr{
+        display: none;
+    } 
+
+    .cakecard p{
+        height: 80px;
+        width: 90%;
+        font-size: 25px;
+        position: absolute;
+        left: 10%;
+    } 
+
+    .cakecard button{
+        height: 40px;
+        width: 35%;
+        font-size: larger;
+        position: absolute;
+        margin-bottom: 20px;
+    }
+
+    #cake2{
+        left: 10%;
+    }
+    #cake4{
+        left: 10%;
+    }
+    #cake6{
+        left: 10%;
+    }
+
+    .cake1contents{
+        position: relative;
+        top: 10px;
+    }
+
+    .priceTag1{
+        position: absolute;
+        top: -21em;
+    }
+
+    .footerContent{
+        width: 90%;
+        left: 2em;
+        font-size: 15px;
+        justify-content: space-between;
+        align-items:center;
+    }
+
+    #offerCircle, #secondCircle, #thirdCircle, #fourthCircle, #fifthCircle, #sixthCircle{
+        display: none;
+    }
+}
